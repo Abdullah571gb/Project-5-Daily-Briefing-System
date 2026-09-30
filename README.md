@@ -10,7 +10,7 @@ This project solves a simple problem: staying updated with news takes too much t
 
 Instead of manually checking multiple news sites, this system:
 1. **Collects** the latest articles automatically from RSS news feeds
-2. **Summarizes** them using AI (Groq API / Llama models) into short, readable briefings
+2. **Summarizes** them using AI (Groq API / openai/gpt-oss-20b) into short, readable briefings
 3. **Saves** the summarized briefing to a Notion page for record-keeping
 4. **Sends** the final briefing directly to a Telegram chat/bot — so it's the first thing I see on my phone
 
